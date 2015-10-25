@@ -57,4 +57,22 @@ a:hover{
   color: grey;
   background-color: gainsboro;
 }
-
+.footer{
+  display: inline;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: gainsboro;
+}
+.footer_text_left li{
+  display: inline;
+  float: left;
+  margin: 5px;
+}
+.footer_text_right li{
+  display: inline;
+  float: right;
+  margin: 5px;
+}
